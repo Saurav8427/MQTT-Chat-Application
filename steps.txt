@@ -1,0 +1,33 @@
+#> Defining all the call_back functions, these functions are invoked whenever the respective event happens.
+#> Stored boker address and the port number in variables.
+#> Connecting to the broker using connect()
+#> Succesfully estabilished a connection using a public broker.
+#> Now, its time to use HiveMQ broker
+#> HiveMQ uses a TLS secured connection, so providing tls_version
+#> On our terminal everything is happening fine.
+#> We will make a chat application where any client joins the chat.
+#> Sends and recieves messages on the chat.
+#> We will print X has joined or X has left the chat.
+#> Adding scrolling feature when the chat length is more the window size
+#> We are already able to estabilish a connection, now any client joins will enter name and this client publish messages on the "Friend/name" topic, this client is subscribed to the "Friend/#" topic. The benefit is that other clients listening to "Friend/#" topic will recieve messages of this client and 
+this client will recieve messages of all other clients.
+#> We will made a class where we all the functions are defined.
+#> We create an object passing frame as a parameter, it will help us in closing the window.
+#> The constructor __init__ is called and define all respective variables.
+#> And thus the chat application works
+
+#> Making a frame in tkinter
+#> Making an input box to get the name of the user
+#> Make a Join button 
+#> Display a Text widget to get message.
+#> Making  a chat area and where all the messages are printed.
+#> Prompting error when user joins without enter name or tries to send message without joining
+#> Clearing message field when the user sends message.
+#> Confirming from the user when he quits chat application.
+#> To adjust height of the input box we used Text() which allows to adjust both width and hieght
+#> Printing the "X has joined the chat".
+#> Sending messages from one to another.
+#> Fixing the problem where "has joined was printing two times"
+#> Adding the "X has left the chat" feature. whenever a client disconnects
+#> Changing background colors.
+
